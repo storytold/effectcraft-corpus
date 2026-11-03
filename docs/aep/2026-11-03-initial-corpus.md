@@ -45,6 +45,12 @@ contributor-made test media by neutral paths (`C:\fixtures\...`); the tests expe
    test exactly that. `settings-a.aep` has no profile block at all (working space None, its cases are
    623 and friends).
 
+The batch was made with the first version of `stubicc.rs`. The current version also covers white
+space around the JSON colon, `\/` escapes, `&quot;` quotes and raw profiles in `.aepx` hex, and stops
+on a profile it cannot replace (review of storytold/effectcraft#2558). Run over the 17 scrubbed
+projects before stubbing (16 of them with the vendor profile), it writes exactly the 17 submitted
+files, byte for byte; run over the submitted files, it changes nothing. The fixtures are unchanged.
+
 **Limit:** the stubs keep a working-space *name*. They do not carry a colour transform and say nothing
 about rendering or colour management; the corpus has no reference renders. Cases that depend on a
 profile's colour data cannot be tested with it.

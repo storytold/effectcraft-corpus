@@ -61,7 +61,10 @@ single-case files some cases are merged from, and the contributor's own animatio
 6. Strip the colour profiles: `stubicc.rs` (a copy of EffectCraft's `crates/aep/examples/stubicc.rs`, run from an
    EffectCraft checkout: `cargo run -p effectcraft-aep --example stubicc -- <fixture>.aep <fixture>.new`,
    also for the `.aepx`) replaces the working-space profile and the profile of imported images by a
-   stub with the same description and no colour data. Do not save the projects with working space
+   stub with the same description and no colour data. It covers the JSON `colorProfileData` value
+   (any white space around the colon, `\/` escapes, quotes written as `&quot;`) and raw profiles
+   (an `.aep` chunk, or the `bdata` hex of an `.aepx`), and stops without writing if a profile
+   cannot be replaced. Do not save the projects with working space
    None instead: the importer reads the working space's name from the profile, and the settings
    cases (sRGB, Rec.709 Gamma 2.4, gamma) test exactly that.
 7. Inspect the final bytes independently: `python -I inspect-embedded.py <aep dir> --expect <number of files> --forbid <your user name> --forbid <your machine name>` (recursive; raw, base64 and AEPX hex; exit code 0 means every profile left is exactly a description-only stub and no forbidden text is in any representation; its own tests: `python -I test_inspect_embedded.py`). A cleanup tool's own success message is not evidence.
