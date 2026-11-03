@@ -1,7 +1,7 @@
 # AEP generation and validation notes
 
-The first fixture batch should add concise generation and validation notes here. No batch
-has been published yet.
+Notes per batch. Published so far: [`2026-11-03-initial-corpus.md`](2026-11-03-initial-corpus.md)
+(17 projects, 3 presets). The case map is [`CASES.md`](CASES.md).
 
 ## Generation notes
 
