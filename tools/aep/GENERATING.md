@@ -64,7 +64,7 @@ single-case files some cases are merged from, and the contributor's own animatio
    stub with the same description and no colour data. Do not save the projects with working space
    None instead: the importer reads the working space's name from the profile, and the settings
    cases (sRGB, Rec.709 Gamma 2.4, gamma) test exactly that.
-7. Inspect the final bytes independently: `python -I inspect-embedded.py <aep dir> --forbid <your user name> --forbid <your machine name>` (raw, base64 and AEPX hex; exit code 0 means every profile left is a description-only stub). A cleanup tool's own success message is not evidence.
+7. Inspect the final bytes independently: `python -I inspect-embedded.py <aep dir> --expect <number of files> --forbid <your user name> --forbid <your machine name>` (recursive; raw, base64 and AEPX hex; exit code 0 means every profile left is exactly a description-only stub and no forbidden text is in any representation; its own tests: `python -I test_inspect_embedded.py`). A cleanup tool's own success message is not evidence.
 8. Check: every case composition must import like the earlier single-case file (the tests in
    `crates/aep/tests` of EffectCraft are that check; [`docs/aep/CASES.md`](../../docs/aep/CASES.md) lists the cases).
 

@@ -54,14 +54,19 @@ profile's colour data cannot be tested with it.
 Run on the exact files of this batch, not on the tool's own report:
 
 ```sh
-python -I tools/aep/inspect-embedded.py aep --forbid <user name> --forbid <machine name> --forbid <folder names>
+python -I tools/aep/inspect-embedded.py aep --expect 20 --forbid <user name> --forbid <machine name> --forbid <folder names>
 ```
 
-The script looks at raw bytes, every long base64 run and every long hex run (the `.aepx`
-`bdata="..."` attributes), searches each for an ICC header (`acsp` at offset 36), prints size, tag
-count and `desc` of each profile found, searches for vendor strings (`Hewlett`, `Adobe RGB`,
-`Apple Computer`) in the raw and the base64-decoded text, and for the forbidden texts (ASCII and
-UTF-16). Result for all 17 projects and the 3 presets: exit code 0.
+The script searches directories recursively (`--expect 20` fails unless exactly the 17 projects and
+3 presets were inspected). For each file it looks at the raw bytes, every long base64 run and every
+long hex run (the `.aepx` `bdata="..."` attributes, decoded up to two levels deep), searches each
+for an ICC header (`acsp` at offset 36) and **requires every profile found to be exactly a
+description-only stub**: a 128-byte header with only the fixed fields set, one `desc` tag, a printable
+ASCII name and nothing else; any other profile, whatever its size, is reported. It searches the raw
+bytes and every decoded run for vendor strings (`Hewlett`, `Adobe RGB`, `Apple Computer`) and the
+forbidden texts as ASCII, UTF-16 (LE and BE), hex text and base64 text (all three alignments).
+Synthetic regression tests: `python -I tools/aep/test_inspect_embedded.py`. Result for the 17
+projects and the 3 presets: exit code 0, 20 files inspected.
 
 | result | detail |
 |---|---|
