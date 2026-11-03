@@ -103,7 +103,7 @@ class Markers(unittest.TestCase):
         self.assertFound(base64.b64encode(binascii.hexlify(payload)))
 
     def test_a_forbidden_text_is_found_the_same_way(self):
-        self.assertFound(base64.b64encode(b"C:/Users/jdoe/x"), "jdoe")
+        self.assertFound(base64.b64encode(b"D:/work/jdoe/x"), "jdoe")
         self.assertFound(binascii.hexlify("jdoe".encode("utf-16-be")), "jdoe")
         self.assertEqual(run(b"nothing here", ["jdoe"])[1], [])
 
