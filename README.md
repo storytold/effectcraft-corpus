@@ -47,6 +47,7 @@ Tests should not change because somebody updated this repository's `main`.
 ```text
 effectcraft-corpus/
 ├── aep/                    # Reviewed .aep/.aepx fixtures and their .attribution sidecars
+│   ├── inputs/             # Original presets and starting projects used for generation
 │   └── media/              # Original supporting media, when a case needs it
 ├── tools/
 │   └── aep/                # Generation, scrubbing and inspection tools
@@ -64,6 +65,10 @@ Keep the `.aep` and `.aepx` files directly in `aep/` so that it can be passed to
 `EFFECTCRAFT_AEP_FIXTURES`. Group future formats in their own top-level directories, with
 matching tools and documentation. Add feature subdirectories only when the consumer supports
 them.
+
+[`aep/inputs/`](aep/inputs/) holds reviewed authoring inputs, such as contributor-created
+presets and starting projects. Keep them separate from the finished fixtures at the root
+of `aep/`. These inputs need attribution and checksums just like the fixtures and media.
 
 ## Using the corpus
 
@@ -106,7 +111,7 @@ shasum -a 256 -c SHA256SUMS  # macOS alternative
 ```
 
 `SHA256SUMS` currently has no entries because no corpus payloads have been added. It must
-cover every fixture, supporting media file and reference output in a published batch. Use
+cover every fixture, authoring input, supporting media file and reference output in a published batch. Use
 repository-relative paths, sorted by path. Attribution sidecars and documentation are tracked
 alongside the files; their revision is fixed by the commit pin.
 
@@ -115,9 +120,13 @@ cleanup tool removed every embedded payload; those checks are part of reviewing 
 
 ## Adding or regenerating files
 
+Open a pull request from a fork for fixture, tooling and documentation changes. Include the
+files and their validation together so the batch can be reviewed before it becomes a pinned release.
+
 1. **Create original test content.** Use small, focused projects generated from known inputs.
    Keep the generator under `tools/aep/`. Document any manual authoring steps that cannot be
    automated, including application version, settings and required starting inputs.
+   Put reviewed presets and starting projects in `aep/inputs/`, and original media in `aep/media/`.
 2. **Inspect the saved files.** Remove personal paths and metadata. Inspect embedded assets,
    including ICC profiles in raw bytes, JSON/base64 and AEPX hex. A working-space name or a
    cleanup tool's success message is not sufficient evidence.

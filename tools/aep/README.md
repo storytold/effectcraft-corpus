@@ -17,6 +17,12 @@ The current contributor's generation notes are in
 Use that pinned reference as context while preparing a reviewed contribution here. Add the
 actual tools and required inputs, or identify what remains external or unavailable.
 
-Keep generation notes in [`docs/aep/`](../../docs/aep/) and fixture payloads in
-[`aep/`](../../aep/). A cleanup tool must not be the sole evidence that its outputs contain no
-unwanted embedded assets.
+Keep generation notes in [`docs/aep/`](../../docs/aep/), finished fixture payloads in
+[`aep/`](../../aep/), reviewed presets and starting projects in
+[`aep/inputs/`](../../aep/inputs/), and original media in [`aep/media/`](../../aep/media/).
+Configure paths to those inputs explicitly. The earlier scripts' `combined/gen/`, `synthetic/`
+and `presets/` paths describe the contributor's working layout; document how they map to the
+published inputs and keep temporary generation outputs outside the reviewed collection.
+
+A cleanup tool must not be the sole evidence that its outputs contain no unwanted embedded
+assets.

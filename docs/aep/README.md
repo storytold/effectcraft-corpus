@@ -8,7 +8,9 @@ has been published yet.
 Record the authoring application and tool versions, case names and expected properties,
 required starting projects, media recipes and relevant font names. Explain any manual
 steps, contributor-created presets, unavailable inputs, and changes made after saving.
-Link to the actual generators under [`tools/aep/`](../../tools/aep/).
+Link to the actual generators under [`tools/aep/`](../../tools/aep/), reviewed presets and
+starting projects under [`aep/inputs/`](../../aep/inputs/), and media under
+[`aep/media/`](../../aep/media/). Record the path configuration needed to regenerate a batch.
 
 ## Validation notes
 

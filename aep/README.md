@@ -8,6 +8,8 @@ EffectCraft's `.aep` and `.aepx` reader and importer. No fixtures are included y
 - Put `.aep` and `.aepx` fixtures directly in this directory. The importer test harness uses
   this directory through `EFFECTCRAFT_AEP_FIXTURES` and expects its named files here.
 - Put an attribution sidecar beside every fixture, for example `example.aep.attribution`.
+- Keep reviewed contributor-created presets and starting projects in [`inputs/`](inputs/),
+  with their own sidecars, asset-index entries and checksums.
 - Keep required original media in [`media/`](media/), with sidecars and generation recipes.
 - Keep generators and cleanup tools under [`tools/aep/`](../tools/aep/).
 - Record the case map, inputs, application versions and validation in
@@ -23,7 +25,9 @@ or reference renders. Missing-footage placeholders must be intentional and docum
    synthetic data where needed, then independently scan the saved results across raw,
    base64 and AEPX hex representations.
 2. Document how each input was made, including contributor-created presets and manual steps.
-   Identify unavailable inputs instead of claiming a complete rebuild recipe.
+   Identify unavailable inputs instead of claiming a complete rebuild recipe. Configure the
+   generation tools to use the reviewed files in `inputs/` and `media/`; document any separate
+   working directories they need.
 3. Add the sidecars, the root asset-index entries and the SHA-256 manifest entries together.
 4. Run the importing app's tests with `EFFECTCRAFT_AEP_FIXTURES_REQUIRED=1`; record the source
    revision, commands, counts and any ignored cases.

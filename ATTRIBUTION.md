@@ -1,7 +1,7 @@
 # Asset attribution
 
-No corpus assets have been added yet. This index will list every fixture, supporting media
-file and reference output when the first reviewed batch is contributed.
+No corpus assets have been added yet. This index will list every fixture, authoring input,
+supporting media file and reference output when the first reviewed batch is contributed.
 
 | Asset | Author | Source / generation recipe | License |
 |---|---|---|---|
@@ -22,5 +22,8 @@ notes:        <application/tool versions, inputs, modifications and embedded-con
 Use the actual creator and source. A container's sidecar does not establish ownership of
 unknown embedded assets. List supporting inputs and explain any removal or replacement in
 the collection's generation notes.
+
+Presets and starting projects under [`aep/inputs/`](aep/inputs/) are assets too: each needs its
+own sidecar, index entry and hash in `SHA256SUMS`, even when used only to generate a fixture.
 
 Documentation credits are in [NOTICE](NOTICE).

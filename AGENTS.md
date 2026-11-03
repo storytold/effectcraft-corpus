@@ -6,8 +6,9 @@ before changing fixtures or tools. Follow the current host's build and publicati
 
 ## Content and provenance
 
-- Keep original `.aep` and `.aepx` fixtures in `aep/`, supporting media in `aep/media/`,
-  generators in `tools/aep/`, and generation and validation notes in `docs/aep/`.
+- Keep original `.aep` and `.aepx` fixtures in `aep/`, reviewed presets and starting projects
+  in `aep/inputs/`, supporting media in `aep/media/`, generators in `tools/aep/`, and generation
+  and validation notes in `docs/aep/`.
 - Commit reproducible generation instructions. If a step requires manual authoring, record
   the application version, settings and inputs. Identify unavailable inputs explicitly.
 - Do not copy vendor code, application-bundle contents, artwork, fonts, presets, samples or
@@ -24,8 +25,10 @@ before changing fixtures or tools. Follow the current host's build and publicati
 
 ## Validation and publication
 
-- Update `SHA256SUMS` with every fixture batch. Include all fixture, media and reference-output
-  payloads, using repository-relative paths sorted by path.
+- Update `SHA256SUMS` with every fixture batch. Include all fixture, authoring-input, media
+  and reference-output payloads, using repository-relative paths sorted by path.
+- Submit contributions through a pull request from a fork, with the files and validation
+  evidence together. Direct push access is not required to contribute.
 - Run the consuming tests with `EFFECTCRAFT_AEP_FIXTURES_REQUIRED=1`. Record the tested app
   revision, corpus revision or file hashes, commands, actual counts and explained ignores.
 - Explain changes to expected results before accepting them. Description-only profile stubs
