@@ -17,8 +17,8 @@
 </p>
 
 > [!NOTE]
-> This repository currently contains the corpus layout and contribution instructions.
-> The first reviewed AEP fixtures, generators and checksum entries will be added separately.
+> The first AEP batch (17 projects, 3 authoring presets) is described in
+> [`docs/aep/2026-11-03-initial-corpus.md`](docs/aep/2026-11-03-initial-corpus.md).
 > EffectCraft's pinned corpus fetch command is still pending.
 
 **Contents:** [What this is](#what-this-is) · [Layout](#layout) ·
@@ -99,7 +99,6 @@ cargo test --locked -p effectcraft-aep -- --nocapture
 
 `EFFECTCRAFT_AEP_FIXTURES_REQUIRED=1` makes a missing fixture fail instead of silently
 skipping. Record actual passed, failed and ignored counts, and explain ignored cases.
-The initial empty layout is not a passing corpus run.
 
 ## Verifying
 
@@ -110,7 +109,7 @@ sha256sum -c SHA256SUMS      # Linux
 shasum -a 256 -c SHA256SUMS  # macOS alternative
 ```
 
-`SHA256SUMS` currently has no entries because no corpus payloads have been added. It must
+`SHA256SUMS` lists the 17 projects and 3 presets of the first batch. It must
 cover every fixture, authoring input, supporting media file and reference output in a published batch. Use
 repository-relative paths, sorted by path. Attribution sidecars and documentation are tracked
 alongside the files; their revision is fixed by the commit pin.

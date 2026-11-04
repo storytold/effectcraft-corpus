@@ -1,7 +1,9 @@
 # Supporting media
 
-Keep original media needed by the AEP fixtures here. This directory is currently empty of
-assets.
+Keep original media needed by the AEP fixtures here. This directory is empty in
+the first batch: the footage links of the projects name media that are not included, and the
+tests expect those footage items to be missing (documented placeholders, see
+[`docs/aep/2026-11-03-initial-corpus.md`](../../docs/aep/2026-11-03-initial-corpus.md)).
 
 For each file, include its generator or authoring recipe, an adjacent `.attribution` sidecar,
 an entry in the root [asset index](../../ATTRIBUTION.md), and its hash in

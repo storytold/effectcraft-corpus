@@ -1,7 +1,9 @@
 # AEP generation and inspection tools
 
-This directory is reserved for the tools that generate and prepare the AEP fixtures. No
-tools are included yet.
+The tools that generate and prepare the AEP fixtures. Start with
+[`GENERATING.md`](GENERATING.md) (generation order, run order, the three preset cases); the cleanup and
+inspection tools are `scrub.py`, `layers-comps-scrub-aepx.py`, `patch-text.py`, `stubicc.rs` and
+`inspect-embedded.py` with its tests `test_inspect_embedded.py` (see below).
 
 When contributing them, document:
 

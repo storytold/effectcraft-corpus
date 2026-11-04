@@ -1,0 +1,5 @@
+# fixtures are hashed byte for byte: never convert line endings
+aep/*.aep -text
+aep/*.aepx -text
+aep/inputs/*.ffx -text
+SHA256SUMS text eol=lf

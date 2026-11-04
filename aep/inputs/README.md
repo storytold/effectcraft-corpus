@@ -1,7 +1,9 @@
 # AEP authoring inputs
 
 Keep reviewed, original inputs used to generate the AEP fixtures here, including
-contributor-created animation presets and starting projects. No inputs are included yet.
+contributor-created animation presets and starting projects. The first batch holds three presets (`curves-red-mid-down.ffx`, `curves-rgb-two-points.ffx`,
+`meshwarp-3x3-center-right.ffx`), used by cases 963, 964 and 985; see
+[`tools/aep/GENERATING.md`](../../tools/aep/GENERATING.md).
 
 Finished test projects belong directly in [`aep/`](../), and supporting images, audio and
 sequences belong in [`aep/media/`](../media/). This directory is for reusable authoring

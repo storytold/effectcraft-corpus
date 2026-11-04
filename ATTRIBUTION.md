@@ -1,10 +1,31 @@
 # Asset attribution
 
-No corpus assets have been added yet. This index will list every fixture, authoring input,
-supporting media file and reference output when the first reviewed batch is contributed.
+Every fixture, authoring input, supporting media file and reference output is listed here.
+The first batch (2026-11-03) holds 17 After Effects projects and 3 authoring presets; no media or
+reference outputs.
 
 | Asset | Author | Source / generation recipe | License |
 |---|---|---|---|
+| `aep/3d.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/aepx-pair.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/aepx-pair.aepx` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/effects.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/empty.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/footage-precomp.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/fx-switch.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/inputs/curves-red-mid-down.ffx` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/inputs/curves-rgb-two-points.ffx` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/inputs/meshwarp-3x3-center-right.ffx` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/keyframes.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/layers-comps.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/markers.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/masks.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/settings-a.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/settings-b.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/settings-c.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/shapes.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/styles.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/text.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 
 Each asset `X` also needs an adjacent `X.attribution` file:
 

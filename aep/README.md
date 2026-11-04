@@ -1,7 +1,9 @@
 # AEP corpus
 
-This collection is reserved for reviewed, original After Effects projects used to test
-EffectCraft's `.aep` and `.aepx` reader and importer. No fixtures are included yet.
+Reviewed, original After Effects projects used to test EffectCraft's `.aep` and `.aepx` reader
+and importer. The first batch (17 files, case map in
+[`docs/aep/CASES.md`](../docs/aep/CASES.md)) is described in
+[`docs/aep/2026-11-03-initial-corpus.md`](../docs/aep/2026-11-03-initial-corpus.md).
 
 ## Layout
 

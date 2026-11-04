@@ -9,8 +9,8 @@ Copyright (c) 2026 ArtCraft Team and the PhotoCraft contributors.
 Licensed under the MIT License or the Apache License, Version 2.0.
 The documentation has been modified for EffectCraft's AEP corpus and its initial setup.
 
-No corpus assets are included in the initial setup. Future assets must be listed in
-ATTRIBUTION.md with their own attribution sidecars and generation notes.
+The corpus assets are listed in ATTRIBUTION.md, each with its own attribution sidecar and
+generation notes.
 
 Adobe and After Effects are trademarks or registered trademarks of Adobe Inc.
 This project is not affiliated with, sponsored by or endorsed by Adobe Inc.
