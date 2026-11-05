@@ -1,7 +1,9 @@
 # AEP generation and validation notes
 
 Notes per batch. Published so far: [`2026-11-03-initial-corpus.md`](2026-11-03-initial-corpus.md)
-(17 projects, 3 presets). The case map is [`CASES.md`](CASES.md).
+(17 projects, 3 presets) and [`2026-11-05-importer-samples.md`](2026-11-05-importer-samples.md)
+(importer samples, version copies, presets, media, read-backs and reference renders). The case map of
+the first batch is [`CASES.md`](CASES.md).
 
 ## Generation notes
 

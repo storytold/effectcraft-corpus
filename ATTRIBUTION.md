@@ -2,7 +2,9 @@
 
 Every fixture, authoring input, supporting media file and reference output is listed here.
 The first batch (2026-11-03) holds 17 After Effects projects and 3 authoring presets; no media or
-reference outputs.
+reference outputs. The second batch (2026-11-05) adds 6 importer-sample projects, 36 version copies, 10
+authoring presets, 5 media files, 6 read-backs and 185 reference renders
+([`docs/aep/2026-11-05-importer-samples.md`](docs/aep/2026-11-05-importer-samples.md)).
 
 | Asset | Author | Source / generation recipe | License |
 |---|---|---|---|
