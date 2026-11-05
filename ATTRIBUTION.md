@@ -8,15 +8,27 @@ reference outputs.
 |---|---|---|---|
 | `aep/1100-quickwins.aep` | vangel76 (contributor) | Adobe After Effects 2026, importer sample group 1100-quickwins of tools/aep/importer-samples/jsx/g1-quickwins.jsx | MIT OR Apache-2.0 |
 | `aep/1110-extra.aep` | vangel76 (contributor) | Adobe After Effects 2026, importer sample group 1110-extra of tools/aep/importer-samples/jsx/g7-extra.jsx | MIT OR Apache-2.0 |
+| `aep/1200-lumetri-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (1200-lumetri family) | MIT OR Apache-2.0 |
+| `aep/1200-lumetri-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (1200-lumetri family) | MIT OR Apache-2.0 |
+| `aep/1200-lumetri-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (1200-lumetri family) | MIT OR Apache-2.0 |
 | `aep/1200-lumetri.aep` | vangel76 (contributor) | Adobe After Effects 2026, importer sample group 1200-lumetri of tools/aep/importer-samples/jsx/g2-lumetri.jsx | MIT OR Apache-2.0 |
 | `aep/1300-thirdparty.aep` | vangel76 (contributor) | Adobe After Effects 2026, importer sample group 1300-thirdparty of tools/aep/importer-samples/jsx/g3-thirdparty.jsx | MIT OR Apache-2.0 |
 | `aep/1310-identifier-uint.aep` | vangel76 (contributor) | Adobe After Effects 2026, importer sample group 1310-identifier-uint of tools/aep/importer-samples/jsx/g3b-identifier.jsx | MIT OR Apache-2.0 |
+| `aep/3d-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (3d family) | MIT OR Apache-2.0 |
+| `aep/3d-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (3d family) | MIT OR Apache-2.0 |
+| `aep/3d-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (3d family) | MIT OR Apache-2.0 |
 | `aep/3d.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/aepx-pair.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/aepx-pair.aepx` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/cryptomatte.aep` | vangel76 (contributor) | Adobe After Effects 2026, importer sample group 1400-cryptomatte of tools/aep/importer-samples/jsx/g4-cryptomatte.jsx | MIT OR Apache-2.0 |
+| `aep/effects-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (effects family) | MIT OR Apache-2.0 |
+| `aep/effects-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (effects family) | MIT OR Apache-2.0 |
+| `aep/effects-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (effects family) | MIT OR Apache-2.0 |
 | `aep/effects.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/empty.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/footage-precomp-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (footage-precomp family) | MIT OR Apache-2.0 |
+| `aep/footage-precomp-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (footage-precomp family) | MIT OR Apache-2.0 |
+| `aep/footage-precomp-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (footage-precomp family) | MIT OR Apache-2.0 |
 | `aep/footage-precomp.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/fx-switch.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/inputs/crypto-material-paint.ffx` | vangel76 (contributor) | Adobe After Effects 2026, hand-made animation preset (docs/aep/2026-11-05-importer-samples.md) | MIT OR Apache-2.0 |
@@ -32,9 +44,21 @@ reference outputs.
 | `aep/inputs/lumetri-look-lut.ffx` | vangel76 (contributor) | Adobe After Effects 2026, hand-made animation preset (docs/aep/2026-11-05-importer-samples.md) | MIT OR Apache-2.0 |
 | `aep/inputs/lumetri-wheels.ffx` | vangel76 (contributor) | Adobe After Effects 2026, hand-made animation preset (docs/aep/2026-11-05-importer-samples.md) | MIT OR Apache-2.0 |
 | `aep/inputs/meshwarp-3x3-center-right.ffx` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/keyframes-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (keyframes family) | MIT OR Apache-2.0 |
+| `aep/keyframes-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (keyframes family) | MIT OR Apache-2.0 |
+| `aep/keyframes-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (keyframes family) | MIT OR Apache-2.0 |
 | `aep/keyframes.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/layers-comps-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (layers-comps family) | MIT OR Apache-2.0 |
+| `aep/layers-comps-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (layers-comps family) | MIT OR Apache-2.0 |
+| `aep/layers-comps-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (layers-comps family) | MIT OR Apache-2.0 |
 | `aep/layers-comps.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/markers-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (markers family) | MIT OR Apache-2.0 |
+| `aep/markers-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (markers family) | MIT OR Apache-2.0 |
+| `aep/markers-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (markers family) | MIT OR Apache-2.0 |
 | `aep/markers.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/masks-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (masks family) | MIT OR Apache-2.0 |
+| `aep/masks-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (masks family) | MIT OR Apache-2.0 |
+| `aep/masks-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (masks family) | MIT OR Apache-2.0 |
 | `aep/masks.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/media/crypto-320x180.exr` | vangel76 (contributor) | Original synthetic media, tools/aep/make_crypto_exr.py | MIT OR Apache-2.0 |
 | `aep/media/crypto-320x180.json` | vangel76 (contributor) | Original synthetic media, tools/aep/make_crypto_exr.py | MIT OR Apache-2.0 |
@@ -232,11 +256,23 @@ reference outputs.
 | `aep/renders/offset-02-chk-toggled.png` | vangel76 (contributor) | Adobe After Effects 2026, reference render of offset-02-chk-toggled | MIT OR Apache-2.0 |
 | `aep/renders/offset-03-keys.png` | vangel76 (contributor) | Adobe After Effects 2026, reference render of offset-03-keys | MIT OR Apache-2.0 |
 | `aep/renders/offset-04-expr.png` | vangel76 (contributor) | Adobe After Effects 2026, reference render of offset-04-expr | MIT OR Apache-2.0 |
+| `aep/settings-a-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (settings-a family) | MIT OR Apache-2.0 |
+| `aep/settings-a-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (settings-a family) | MIT OR Apache-2.0 |
+| `aep/settings-a-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (settings-a family) | MIT OR Apache-2.0 |
 | `aep/settings-a.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/settings-b.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 | `aep/settings-c.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/shapes-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (shapes family) | MIT OR Apache-2.0 |
+| `aep/shapes-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (shapes family) | MIT OR Apache-2.0 |
+| `aep/shapes-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (shapes family) | MIT OR Apache-2.0 |
 | `aep/shapes.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/styles-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (styles family) | MIT OR Apache-2.0 |
+| `aep/styles-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (styles family) | MIT OR Apache-2.0 |
+| `aep/styles-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (styles family) | MIT OR Apache-2.0 |
 | `aep/styles.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
+| `aep/text-24x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 24.x (text family) | MIT OR Apache-2.0 |
+| `aep/text-25x.aep` | vangel76 (contributor) | Adobe After Effects 2026, File > Save a Copy As 25.x (text family) | MIT OR Apache-2.0 |
+| `aep/text-26.aep` | vangel76 (contributor) | Adobe After Effects 2026, normal save (text family) | MIT OR Apache-2.0 |
 | `aep/text.aep` | vangel76 (contributor) | Adobe After Effects 2026, tools/aep/GENERATING.md | MIT OR Apache-2.0 |
 
 Each asset `X` also needs an adjacent `X.attribution` file:
