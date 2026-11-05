@@ -1,0 +1,51 @@
+{
+  "file": "media/crypto-320x180.exr",
+  "size": 52675,
+  "channels": [
+    "A",
+    "B",
+    "CryptoMaterial00.A",
+    "CryptoMaterial00.B",
+    "CryptoMaterial00.G",
+    "CryptoMaterial00.R",
+    "CryptoObject00.A",
+    "CryptoObject00.B",
+    "CryptoObject00.G",
+    "CryptoObject00.R",
+    "G",
+    "ID",
+    "R",
+    "Z"
+  ],
+  "objects": {
+    "ramp_hdr": {
+      "material": "mat_emissive",
+      "hash": "9c7afe2e",
+      "id": 4,
+      "z": 10.0
+    },
+    "box_red": {
+      "material": "mat_paint",
+      "hash": "11a97486",
+      "id": 1,
+      "z": 5.0
+    },
+    "disc_green": {
+      "material": "mat_paint",
+      "hash": "07919870",
+      "id": 2,
+      "z": 3.0
+    },
+    "tri_blue": {
+      "material": "mat_glass",
+      "hash": "aca51e04",
+      "id": 3,
+      "z": 8.0
+    }
+  },
+  "materials": {
+    "mat_emissive": "4b3eed4d",
+    "mat_glass": "00e7ce01",
+    "mat_paint": "a5deeb9e"
+  }
+}

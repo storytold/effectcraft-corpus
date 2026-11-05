@@ -1,0 +1,8 @@
+asset:        crypto-320x180.json
+title:        Manifest written by the generator next to crypto-320x180.exr: channels, objects, materials, ids and hashes
+author:       vangel76 (contributor)
+source:       original work; tools/aep/make_crypto_exr.py (second argument); docs/aep/2026-11-05-importer-samples.md
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        Original synthetic test image, no third-party data. Plain JSON, no paths other than the relative media name.
