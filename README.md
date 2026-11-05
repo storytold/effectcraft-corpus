@@ -18,7 +18,9 @@
 
 > [!NOTE]
 > The first AEP batch (17 projects, 3 authoring presets) is described in
-> [`docs/aep/2026-11-03-initial-corpus.md`](docs/aep/2026-11-03-initial-corpus.md).
+> [`docs/aep/2026-11-03-initial-corpus.md`](docs/aep/2026-11-03-initial-corpus.md), the second (importer
+> samples, version copies, presets, media and reference renders) in
+> [`docs/aep/2026-11-05-importer-samples.md`](docs/aep/2026-11-05-importer-samples.md).
 > EffectCraft's pinned corpus fetch command is still pending.
 
 **Contents:** [What this is](#what-this-is) · [Layout](#layout) ·
@@ -48,7 +50,9 @@ Tests should not change because somebody updated this repository's `main`.
 effectcraft-corpus/
 ├── aep/                    # Reviewed .aep/.aepx fixtures and their .attribution sidecars
 │   ├── inputs/             # Original presets and starting projects used for generation
-│   └── media/              # Original supporting media, when a case needs it
+│   ├── media/              # Original supporting media, when a case needs it
+│   ├── readbacks/          # What After Effects read back from the generated projects (JSON)
+│   └── renders/            # Reference renders of the application (PNG)
 ├── tools/
 │   └── aep/                # Generation, scrubbing and inspection tools
 ├── docs/
@@ -109,7 +113,8 @@ sha256sum -c SHA256SUMS      # Linux
 shasum -a 256 -c SHA256SUMS  # macOS alternative
 ```
 
-`SHA256SUMS` lists the 17 projects and 3 presets of the first batch. It must
+`SHA256SUMS` lists every project, preset, media file, read-back and reference render of the published
+batches. It must
 cover every fixture, authoring input, supporting media file and reference output in a published batch. Use
 repository-relative paths, sorted by path. Attribution sidecars and documentation are tracked
 alongside the files; their revision is fixed by the commit pin.

@@ -1,0 +1,8 @@
+asset:        colstab-04-pop5-1.png
+title:        Reference render of composition colstab-04-pop5-1 (frame at 0.5 s, 320 x 180, 16 bit RGBA) as After Effects 2026 draws it
+author:       vangel76 (contributor)
+source:       rendered by Adobe After Effects 2026 (26.2.1x2) on Windows 11 with saveFrameToPng from composition colstab-04-pop5-1 of aep/1100-quickwins.aep (tools/aep/importer-samples/jsx/lib.jsx; docs/aep/2026-11-05-importer-samples.md)
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        Reference output of the application, not of EffectCraft: the expected look of the variant for later render comparisons. The file contains only the IHDR, IDAT and IEND chunks (no colour profile, text, time stamp or other metadata chunk).

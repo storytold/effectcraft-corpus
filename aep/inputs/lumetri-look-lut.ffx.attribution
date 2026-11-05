@@ -1,0 +1,8 @@
+asset:        lumetri-look-lut.ffx
+title:        Lumetri Color preset: Creative > Look set to the application's Fuji F125 Kodak 2393 (by Adobe) table
+author:       vangel76 (contributor)
+source:       original work, made by hand in Adobe After Effects 2026 (26.2.1x2) on Windows 11 on 2026-11-05 (docs/aep/2026-11-05-importer-samples.md)
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        Used here: applied by variant lumetri-59-preset-look-lut of aep/1200-lumetri.aep. Only the table's name is stored (the look-up table itself is not in the file). Made by hand in Adobe After Effects 2026 (26.2.1x2) on Windows 11 on 2026-11-05 (the settings cannot be made by script): add the effect to a layer of a 320 x 180 composition (a coloured solid for Lumetri Color, the EXR layer for the others), set it as described, select the effect, Animation > Save Animation Preset, delete the effect (docs/aep/2026-11-05-importer-samples.md). It contains only that one effect with the values set by hand; no Adobe preset, sample or bundled asset was used or copied. XMP packet of After Effects (creator tool, timestamps, random document ids) only; no ICC profile, no paths or personal names (tools/aep/inspect-embedded.py: CLEAN). The time-based ids (guid) in the Lumetri XML end in the MAC address of a network adapter; where a preset held one, the 12 hex digits were zeroed (tools/aep/scrub-uninit.py).

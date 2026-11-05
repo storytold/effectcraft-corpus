@@ -1,0 +1,8 @@
+asset:        crypto-uint-320x180.exr
+title:        Synthetic OpenEXR test image, 320 x 180, like crypto-320x180.exr plus UINT channels objectId and IndexOB.X (IDentifier lists only UINT channels)
+author:       vangel76 (contributor)
+source:       original work; tools/aep/make_crypto_exr_uint.py (stdlib only; regenerating it gives these exact bytes); docs/aep/2026-11-05-importer-samples.md
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        Original synthetic test image, no third-party data. Footage of aep/1310-identifier-uint.aep. The only text attribute is the comment "Synthetic test image for EffectCraft importer samples".

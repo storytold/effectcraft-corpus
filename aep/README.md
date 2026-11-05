@@ -3,7 +3,9 @@
 Reviewed, original After Effects projects used to test EffectCraft's `.aep` and `.aepx` reader
 and importer. The first batch (17 files, case map in
 [`docs/aep/CASES.md`](../docs/aep/CASES.md)) is described in
-[`docs/aep/2026-11-03-initial-corpus.md`](../docs/aep/2026-11-03-initial-corpus.md).
+[`docs/aep/2026-11-03-initial-corpus.md`](../docs/aep/2026-11-03-initial-corpus.md); the second (importer
+samples, version copies, presets, media, read-backs and reference renders) in
+[`docs/aep/2026-11-05-importer-samples.md`](../docs/aep/2026-11-05-importer-samples.md).
 
 ## Layout
 
@@ -13,6 +15,9 @@ and importer. The first batch (17 files, case map in
 - Keep reviewed contributor-created presets and starting projects in [`inputs/`](inputs/),
   with their own sidecars, asset-index entries and checksums.
 - Keep required original media in [`media/`](media/), with sidecars and generation recipes.
+- Keep what After Effects read back from generated projects in [`readbacks/`](readbacks/) and its
+  reference renders in [`renders/`](renders/), with sidecars. They are expected values of the
+  application, not of EffectCraft.
 - Keep generators and cleanup tools under [`tools/aep/`](../tools/aep/).
 - Record the case map, inputs, application versions and validation in
   [`docs/aep/`](../docs/aep/).
