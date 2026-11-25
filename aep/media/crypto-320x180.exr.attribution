@@ -1,0 +1,8 @@
+asset:        crypto-320x180.exr
+title:        Synthetic multichannel OpenEXR test image, 320 x 180: beauty RGBA (values up to 4.0), Cryptomatte layers CryptoObject and CryptoMaterial, Z and ID
+author:       vangel76 (contributor)
+source:       original work; tools/aep/make_crypto_exr.py (stdlib only; regenerating it gives these exact bytes); docs/aep/2026-11-05-importer-samples.md
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        Original synthetic test image, no third-party data. Cryptomatte metadata per the public Cryptomatte specification (objects box_red, disc_green, tri_blue, ramp_hdr; materials mat_paint, mat_glass, mat_emissive); the manifest is in crypto-320x180.json. The only text attribute is the comment "Synthetic test image for EffectCraft importer samples". Footage of the projects 1100, 1110, 1300 and cryptomatte.aep; the projects reach it by neutral, non-existent paths, so the tests see a missing placeholder and any consumer must relink.

@@ -1,0 +1,8 @@
+asset:        id-scene.blend
+title:        Blender scene that renders id-scene-320x180.exr (floor, cube, sphere, cone, camera, sun)
+author:       vangel76 (contributor)
+source:       original work; tools/aep/make_id_exr.py (the script saves the scene next to the render); docs/aep/2026-11-05-importer-samples.md
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        Original synthetic test image, no third-party data. Two local strings Blender had stored were removed with a same-length edit: the file browser's start folder (a path in the user profile, now empty) and the render result image's absolute path (now the relative //id-scene-320x180.exr). Nothing else changed (100 bytes; the file still loads in Blender 3.0 with its six objects). No author, host or user name remains (checked in ASCII, UTF-16, hex and base64).

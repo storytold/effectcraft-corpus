@@ -2,8 +2,11 @@
 
 The tools that generate and prepare the AEP fixtures. Start with
 [`GENERATING.md`](GENERATING.md) (generation order, run order, the three preset cases); the cleanup and
-inspection tools are `scrub.py`, `layers-comps-scrub-aepx.py`, `patch-text.py`, `stubicc.rs` and
-`inspect-embedded.py` with its tests `test_inspect_embedded.py` (see below).
+inspection tools are `scrub.py`, `scrub-uninit.py`, `layers-comps-scrub-aepx.py`, `patch-text.py`, `stubicc.rs`,
+`inspect-embedded.py` with its tests `test_inspect_embedded.py`, and `chunk-compare.py` (see below).
+The importer samples of 2026-11-05 are made by the scripts in `importer-samples/jsx/` and the media
+generators `make_crypto_exr.py`, `make_crypto_exr_uint.py` and `make_id_exr.py`; see
+[`docs/aep/2026-11-05-importer-samples.md`](../../docs/aep/2026-11-05-importer-samples.md).
 
 When contributing them, document:
 

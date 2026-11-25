@@ -1,9 +1,12 @@
 # Supporting media
 
-Keep original media needed by the AEP fixtures here. This directory is empty in
-the first batch: the footage links of the projects name media that are not included, and the
-tests expect those footage items to be missing (documented placeholders, see
-[`docs/aep/2026-11-03-initial-corpus.md`](../../docs/aep/2026-11-03-initial-corpus.md)).
+Keep original media needed by the AEP fixtures here. The first batch has no
+media: the footage links of its projects name media that are not included, and the tests expect
+those footage items to be missing (documented placeholders, see
+[`docs/aep/2026-11-03-initial-corpus.md`](../../docs/aep/2026-11-03-initial-corpus.md)). The second batch
+adds the EXR images and the Blender scene of the importer samples
+([`docs/aep/2026-11-05-importer-samples.md`](../../docs/aep/2026-11-05-importer-samples.md)); their
+projects still link them by neutral placeholder paths.
 
 For each file, include its generator or authoring recipe, an adjacent `.attribution` sidecar,
 an entry in the root [asset index](../../ATTRIBUTION.md), and its hash in

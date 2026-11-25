@@ -1,0 +1,8 @@
+asset:        1310-identifier-uint.json
+title:        After Effects read-back of group 1310-identifier-uint: per effect the parameter dump of the defaults instance and, per variant, what the script set and what After Effects read back
+author:       vangel76 (contributor)
+source:       written by tools/aep/importer-samples/jsx/lib.jsx while it generated aep/1310-identifier-uint.aep (docs/aep/2026-11-05-importer-samples.md)
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        The expected values for the importer tests, read from the application, not computed by us. Edited after writing: the absolute folder in the render paths was cut to the relative renders/ folder, and the start and finish time stamps (with the time zone) were reduced to the date. No other change. Checked for paths, host and user names: none.

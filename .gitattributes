@@ -3,3 +3,8 @@ aep/*.aep -text
 aep/*.aepx -text
 aep/inputs/*.ffx -text
 SHA256SUMS text eol=lf
+aep/media/*.exr -text
+aep/media/*.blend -text
+aep/media/*.json -text
+aep/renders/*.png -text
+aep/readbacks/*.json -text

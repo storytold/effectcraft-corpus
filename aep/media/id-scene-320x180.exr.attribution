@@ -1,0 +1,8 @@
+asset:        id-scene-320x180.exr
+title:        Multilayer OpenEXR rendered by Blender (Cycles, 32 samples): Cryptomatte object, material and asset passes, Object and Material Index and Z of a small scene of a floor, a cube, a sphere and a cone
+author:       vangel76 (contributor)
+source:       original work; tools/aep/make_id_exr.py (run with Blender; scene built from primitives in the script); docs/aep/2026-11-05-importer-samples.md
+license:      MIT OR Apache-2.0
+license-file: ../../LICENSE-MIT, ../../LICENSE-APACHE
+added:        2026-11-05 by @vangel76
+notes:        Original synthetic test image, no third-party data. Our own scene made of Blender primitives and default materials; no third-party asset. Not referenced by an AEP fixture yet; it is the real-renderer counterpart of the synthetic EXRs for Cryptomatte, EXtractoR and IDentifier tests. The attributes written by Blender (date, render time, samples, camera, scene name; file name <untitled>) hold no paths or names.
